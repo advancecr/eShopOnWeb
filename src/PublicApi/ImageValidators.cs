@@ -15,7 +15,7 @@ public static class ImageValidators
     private static bool IsExtensionValid(string fileName)
     {
         var extension = Path.GetExtension(fileName);
-
+        //Valida la imagen
         return string.Equals(extension, ".jpg", StringComparison.OrdinalIgnoreCase) ||
                string.Equals(extension, ".png", StringComparison.OrdinalIgnoreCase) ||
                string.Equals(extension, ".gif", StringComparison.OrdinalIgnoreCase) ||
